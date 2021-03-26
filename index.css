@@ -1,0 +1,68 @@
+html, body{
+    height: 100%;
+    background-color: rgb(6, 146, 240);
+    display: flex;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: bloggersans;
+    src: url(assets/fonts/Blogger-Sans.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: bloggersans;
+    src: url(assets/fonts/Blogger-Sans-Bold.otf) format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: bloggersans;
+    src: url(assets/fonts/Blogger-Sans-Italic.otf) format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.black-logo-big{
+    font-family: bloggersans;
+    font-weight: bold;
+    font-size: 53px;
+
+    display: inline-block;
+}
+
+.blue-logo-big{
+    font-family: bloggersans;
+    font-weight: bold;
+    font-size: 53px;
+
+    color: #007BCC;
+    display: inline-block;
+}
+
+#logo-container{
+    background-color: white;
+    border-radius: 50%;
+
+    width: 450px;
+    height: 450px;
+}
